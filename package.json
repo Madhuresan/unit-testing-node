@@ -6,6 +6,7 @@
   "scripts": {
     "test": "gulp test",
     "test-all": "gulp test-all",
+    "test-mochaawesome": "nyc --reporter=html mocha test/*.js --reporter mochawesome --exit"
     "lint": "gulp lint",
     "lint-all": "gulp lint-all"
   },
